@@ -9,10 +9,19 @@ header {
   box-shadow: 0 5px 5px 0 rgba(183, 182, 182, 0.5);
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .header-text {
-  line-height: 40px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.links {
+  display: flex;
 }
 
 /* サイズ小 */

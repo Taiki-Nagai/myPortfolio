@@ -10,12 +10,15 @@ footer {
 .footer {
   height: 50px;
   background-color: rgb(48, 48, 48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-menu {
   color: #fff;
   text-align: center;
-  line-height: 50px;
+  text-decoration: none;
 }
 
 .footer-texts {
@@ -25,6 +28,10 @@ footer {
 
 .footer-text {
   line-height: 50px;
+}
+
+.links__header-link {
+  color: #fff;
 }
 
 /* サイズ小 */
@@ -39,12 +46,7 @@ footer {
   }
 
   .footer-menu {
-    font-size: 15px;
-    line-height: 40px;
-  }
-
-  .footer-texts {
-    height: 40px;
+    font-size: 14px;
   }
 
   .footer-text {

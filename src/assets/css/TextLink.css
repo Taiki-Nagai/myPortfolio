@@ -1,0 +1,7 @@
+/* サイズ小 */
+@media screen and (max-width: 800px) {
+  .textLink {
+    font-size: 14px;
+    /* font-weight: bold; */
+  }
+}

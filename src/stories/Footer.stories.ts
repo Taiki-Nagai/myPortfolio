@@ -1,6 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
 import "../assets/css/MainSection.css";
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const meta = {
@@ -11,4 +10,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const storyFooter: Story = {};
+export const StoryFooter: Story = {};
