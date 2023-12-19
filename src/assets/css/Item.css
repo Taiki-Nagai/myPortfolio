@@ -1,0 +1,78 @@
+.item {
+  width: calc(33.333333% - 30px);
+  position: relative;
+  margin-right: 30px;
+}
+
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item img:hover {
+  opacity: 0.5;
+}
+
+.img-style {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.item-name {
+  margin: 10px 0;
+}
+
+.tbl {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.tbl-tr {
+  height: 25px;
+}
+
+.tbl-tr__tdTitle {
+  min-width: 90px;
+  vertical-align: top;
+}
+
+/* サイズ中 */
+@media screen and (max-width: 1200px) {
+  .item {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+
+/* サイズ小 */
+@media screen and (max-width: 800px) {
+  .item {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+
+  .item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .item:nth-child(3n) {
+    margin-right: 10px;
+  }
+
+  .item:nth-child(6n) {
+    margin-right: 0;
+  }
+
+  .item-name {
+    font-size: 14px;
+  }
+
+  .tbl-tr {
+    height: 20px;
+  }
+
+  .tbl-tr__tdTitle {
+    min-width: 70px;
+  }
+}

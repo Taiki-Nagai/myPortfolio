@@ -1,0 +1,13 @@
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 90px;
+}
+
+/* サイズ小 */
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 10px;
+  }
+}

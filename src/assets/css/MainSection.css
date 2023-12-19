@@ -1,0 +1,10 @@
+.mainSection {
+  margin-top: 120px;
+}
+
+/* サイズ小 */
+@media screen and (max-width: 800px) {
+  .mainSection {
+    margin-top: 70px;
+  }
+}
