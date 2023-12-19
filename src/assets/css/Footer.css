@@ -18,7 +18,6 @@ footer {
 .footer-menu {
   color: #fff;
   text-align: center;
-  line-height: 50px;
 }
 
 .footer-texts {
@@ -46,12 +45,7 @@ footer {
   }
 
   .footer-menu {
-    font-size: 15px;
-    line-height: 40px;
-  }
-
-  .footer-texts {
-    height: 40px;
+    font-size: 14px;
   }
 
   .footer-text {
