@@ -1,5 +1,6 @@
 import "../assets/css/Header.css";
 import Container from "./Container";
+import Spacer from "./Spacer";
 
 const Header = () => {
   const headerText: string = "Portfolio";
@@ -7,7 +8,21 @@ const Header = () => {
   return (
     <header>
       <Container>
-        <p className="header-text">{headerText}</p>
+        <div className="header-container">
+          <p className="header-text">{headerText}</p>
+          <div className="links">
+            <a
+              className="links__header-link"
+              href="https://github.com/Taiki-Nagai?tab=repositories"
+            >
+              GitHub
+            </a>
+            <Spacer size={20} horizontal={true} />
+            <a className="links__header-link" href="https://qiita.com/taikiti">
+              Qiita
+            </a>
+          </div>
+        </div>
       </Container>
     </header>
   );

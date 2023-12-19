@@ -10,4 +10,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const storyHeader: Story = {};
+export const StoryHeader: Story = {};
