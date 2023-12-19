@@ -10,4 +10,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StoryContainer: Story = { args: { size: 20 } };
+export const StorySpacer: Story = { args: { size: 20 } };

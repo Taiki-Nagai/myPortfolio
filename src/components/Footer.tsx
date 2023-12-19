@@ -4,14 +4,16 @@ import Spacer from "./Spacer";
 import TextLink from "./TextLink";
 
 const Footer = () => {
-  const footerMenu: string = "Gallery"; // とりあえず今は一つだけ
+  const footerMenu: string = "Gallery";
   const footerText: string = "Nagai's portfolio";
 
   return (
     <footer>
       <Container>
         <div className="footer">
-          <p className="footer-menu">{footerMenu}</p>
+          <a className="footer-menu" href="#">
+            {footerMenu}
+          </a>
           <Spacer size={20} horizontal={true} />
           <TextLink
             linkUrl="https://github.com/Taiki-Nagai?tab=repositories"
