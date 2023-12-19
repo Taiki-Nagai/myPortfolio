@@ -14,11 +14,18 @@ const Header = () => {
             <a
               className="links__header-link"
               href="https://github.com/Taiki-Nagai?tab=repositories"
+              target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
             <Spacer size={20} horizontal={true} />
-            <a className="links__header-link" href="https://qiita.com/taikiti">
+            <a
+              className="links__header-link"
+              href="https://qiita.com/taikiti"
+              target="_blank"
+              rel="noreferrer"
+            >
               Qiita
             </a>
           </div>
