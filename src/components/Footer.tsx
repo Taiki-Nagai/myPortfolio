@@ -1,6 +1,7 @@
 import "../assets/css/Footer.css";
 import Container from "./Container";
 import Spacer from "./Spacer";
+import TextLink from "./TextLink";
 
 const Footer = () => {
   const footerMenu: string = "Gallery"; // とりあえず今は一つだけ
@@ -12,23 +13,17 @@ const Footer = () => {
         <div className="footer">
           <p className="footer-menu">{footerMenu}</p>
           <Spacer size={20} horizontal={true} />
-          <a
-            className="links__header-link"
-            href="https://github.com/Taiki-Nagai?tab=repositories"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
+          <TextLink
+            linkUrl="https://github.com/Taiki-Nagai?tab=repositories"
+            color="white"
+            text="GitHub"
+          />
           <Spacer size={20} horizontal={true} />
-          <a
-            className="links__header-link"
-            href="https://qiita.com/taikiti"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Qiita
-          </a>
+          <TextLink
+            linkUrl="https://qiita.com/taikiti"
+            color="white"
+            text="Qiita"
+          />
         </div>
         <div className="footer-texts">
           <p className="footer-text">{footerText}</p>
