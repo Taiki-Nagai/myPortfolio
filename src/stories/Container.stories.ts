@@ -10,4 +10,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const storyContainer: Story = { args: { children: "サンプル" } };
+export const StoryContainer: Story = { args: { children: "サンプル" } };
