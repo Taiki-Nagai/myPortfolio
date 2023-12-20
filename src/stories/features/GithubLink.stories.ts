@@ -10,6 +10,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StoryGithubLink: Story = {
-  args: { color: "black" },
-};
+export const StoryGithubLink: Story = { args: { color: "black" } };
