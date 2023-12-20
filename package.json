@@ -61,6 +61,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "prop-types": "^15.8.1",
     "react-app-rewired": "^2.2.1",
+    "react-test-renderer": "^18.2.0",
     "storybook": "^7.6.5",
     "ts-jest": "^29.1.1",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
