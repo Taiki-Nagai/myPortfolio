@@ -1,6 +1,6 @@
 import "../../assets/css/TextLink.css";
 
-type TextLinkProps = {
+export type TextLinkProps = {
   color: string;
   linkUrl: string;
   text: string;
