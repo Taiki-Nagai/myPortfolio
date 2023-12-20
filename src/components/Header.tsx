@@ -1,7 +1,7 @@
 import "../assets/css/Header.css";
 import Container from "./Container";
 import Spacer from "./Spacer";
-import TextLink from "./TextLink";
+import TextLink from "./common/TextLink";
 
 const Header = () => {
   const headerText: string = "Portfolio";

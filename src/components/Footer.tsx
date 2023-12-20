@@ -1,7 +1,7 @@
+import Container from "@/components/Container";
+import Spacer from "@/components/Spacer";
+import TextLink from "@/components/common/TextLink";
 import "../assets/css/Footer.css";
-import Container from "./Container";
-import Spacer from "./Spacer";
-import TextLink from "./TextLink";
 
 const Footer = () => {
   const footerMenu: string = "Gallery";

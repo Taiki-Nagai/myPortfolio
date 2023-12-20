@@ -1,4 +1,4 @@
-import "../assets/css/TextLink.css";
+import "../../assets/css/TextLink.css";
 
 type TextLinkProps = {
   color: string;
