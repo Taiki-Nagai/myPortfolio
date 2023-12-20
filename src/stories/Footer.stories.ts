@@ -1,6 +1,6 @@
+import Footer from "@/components/Footer";
 import { Meta, StoryObj } from "@storybook/react";
-import "../assets/css/MainSection.css";
-import Footer from "../components/Footer";
+import "../assets/css/Footer.css";
 
 const meta = {
   title: "Footer",
@@ -10,4 +10,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const StoryFooter: Story = {};
+export const StoryFooter: Story = { args: { footerMenu: "" } };

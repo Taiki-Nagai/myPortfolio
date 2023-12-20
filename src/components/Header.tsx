@@ -1,7 +1,8 @@
+import GithubLink from "@/components/features/GithubLink";
+import QiitaLink from "@/components/features/QiitaLink";
 import "../assets/css/Header.css";
-import Container from "./Container";
-import Spacer from "./Spacer";
-import TextLink from "./TextLink";
+import Container from "./common/Container";
+import Spacer from "./common/Spacer";
 
 const Header = () => {
   const headerText: string = "Portfolio";
@@ -12,17 +13,9 @@ const Header = () => {
         <div className="header-container">
           <p className="header-text">{headerText}</p>
           <div className="links">
-            <TextLink
-              linkUrl="https://github.com/Taiki-Nagai?tab=repositories"
-              color="black"
-              text="GitHub"
-            />
+            <GithubLink color="black" />
             <Spacer size={20} horizontal={true} />
-            <TextLink
-              linkUrl="https://qiita.com/taikiti"
-              color="black"
-              text="Qiita"
-            />
+            <QiitaLink color="black" />
           </div>
         </div>
       </Container>

@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
@@ -58,7 +58,9 @@
     "@storybook/test": "^7.6.5",
     "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
+    "react-app-rewired": "^2.2.1",
     "storybook": "^7.6.5",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "webpack": "^5.89.0"
   }
 }

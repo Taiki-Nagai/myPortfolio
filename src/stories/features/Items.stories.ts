@@ -1,7 +1,7 @@
 import { Meta, StoryObj } from "@storybook/react";
-import "../assets/css/MainSection.css";
-import img1 from "../assets/img/img1.png";
-import Items from "../components/Items";
+import "../../assets/css/MainSection.css";
+import img1 from "../../assets/img/img1.png";
+import Items from "../../components/features/Items";
 
 const meta = {
   title: "Items",
