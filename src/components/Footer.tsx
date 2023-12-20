@@ -1,5 +1,6 @@
 import Container from "@/components/common/Container";
 import Spacer from "@/components/common/Spacer";
+import TextLink from "@/components/common/TextLink";
 import GithubLink from "@/components/features/GithubLink";
 import QiitaLink from "@/components/features/QiitaLink";
 import "../assets/css/Footer.css";
@@ -12,13 +13,16 @@ const Footer = () => {
     <footer>
       <Container>
         <div className="footer">
-          <a className="footer-menu" href="#">
-            {footerMenu}
-          </a>
+          <TextLink
+            linkUrl="#"
+            color="white"
+            text={footerMenu}
+            targetBlank={true}
+          />
           <Spacer size={20} horizontal={true} />
           <GithubLink color="white" />
           <Spacer size={20} horizontal={true} />
-          <QiitaLink color="whihte" />
+          <QiitaLink color="white" />
         </div>
         <div className="footer-texts">
           <p className="footer-text">{footerText}</p>
