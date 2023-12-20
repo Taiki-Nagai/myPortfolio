@@ -15,42 +15,25 @@ footer {
   justify-content: center;
 }
 
-.footer-menu {
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-}
-
 .footer-texts {
   height: 50px;
   text-align: center;
 }
 
-.footer-text {
-  line-height: 50px;
-}
-
-.links__header-link {
-  color: #fff;
+/* サイズ中 */
+@media screen and (max-width: 1200px) {
+  footer {
+    position: static;
+  }
 }
 
 /* サイズ小 */
 @media screen and (max-width: 800px) {
-  footer {
-    bottom: 0;
-    position: relative;
-  }
-
   .footer {
     height: 40px;
   }
 
-  .footer-menu {
-    font-size: 14px;
-  }
-
   .footer-text {
     font-size: 15px;
-    line-height: 40px;
   }
 }
