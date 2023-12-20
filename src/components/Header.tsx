@@ -1,6 +1,6 @@
 import "../assets/css/Header.css";
-import Container from "./Container";
-import Spacer from "./Spacer";
+import Container from "./common/Container";
+import Spacer from "./common/Spacer";
 import TextLink from "./common/TextLink";
 
 const Header = () => {

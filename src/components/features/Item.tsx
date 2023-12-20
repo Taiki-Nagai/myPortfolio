@@ -1,5 +1,4 @@
-import React from "react";
-import "../assets/css/Item.css";
+import "../../assets/css/Item.css";
 
 export type ItemProps = {
   img: string;

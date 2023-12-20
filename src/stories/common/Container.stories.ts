@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
+import Container from "../../components/common/Container";
 import "../assets/css/MainSection.css";
-import Container from "../components/Container";
 
 const meta = {
   title: "Container",

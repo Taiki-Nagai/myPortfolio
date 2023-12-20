@@ -1,4 +1,4 @@
-import "../assets/css/Items.css";
+import "../../assets/css/Items.css";
 import Item, { ItemProps } from "./Item";
 
 type ItemsProps = {

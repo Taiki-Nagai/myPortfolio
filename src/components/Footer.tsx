@@ -1,5 +1,5 @@
-import Container from "@/components/Container";
-import Spacer from "@/components/Spacer";
+import Container from "@/components/common/Container";
+import Spacer from "@/components/common/Spacer";
 import TextLink from "@/components/common/TextLink";
 import "../assets/css/Footer.css";
 

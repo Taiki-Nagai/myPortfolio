@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
 import "../assets/css/MainSection.css";
-import Spacer from "../components/Spacer";
+import Spacer from "../../components/common/Spacer";
 
 const meta = {
   title: "Spacer",

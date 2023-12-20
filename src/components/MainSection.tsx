@@ -2,9 +2,9 @@ import "../assets/css/MainSection.css";
 import img1 from "../assets/img/img1.png";
 import img2 from "../assets/img/img2.png";
 import img3 from "../assets/img/img3.png";
-import Container from "./Container";
-import { ItemProps } from "./Item";
-import Items from "./Items";
+import Container from "./common/Container";
+import { ItemProps } from "./features/Item";
+import Items from "./features/Items";
 
 const MainSection = () => {
   const items: ItemProps[] = [
