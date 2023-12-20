@@ -1,6 +1,7 @@
 import Container from "@/components/common/Container";
 import Spacer from "@/components/common/Spacer";
 import TextLink from "@/components/common/TextLink";
+import GithubLink from "@/components/features/GithubLink";
 import "../assets/css/Footer.css";
 
 const Footer = () => {
@@ -15,11 +16,7 @@ const Footer = () => {
             {footerMenu}
           </a>
           <Spacer size={20} horizontal={true} />
-          <TextLink
-            linkUrl="https://github.com/Taiki-Nagai?tab=repositories"
-            color="white"
-            text="GitHub"
-          />
+          <GithubLink color="white" />
           <Spacer size={20} horizontal={true} />
           <TextLink
             linkUrl="https://qiita.com/taikiti"

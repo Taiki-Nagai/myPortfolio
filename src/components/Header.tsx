@@ -1,3 +1,4 @@
+import GithubLink from "@/components/features/GithubLink";
 import "../assets/css/Header.css";
 import Container from "./common/Container";
 import Spacer from "./common/Spacer";
@@ -12,11 +13,7 @@ const Header = () => {
         <div className="header-container">
           <p className="header-text">{headerText}</p>
           <div className="links">
-            <TextLink
-              linkUrl="https://github.com/Taiki-Nagai?tab=repositories"
-              color="black"
-              text="GitHub"
-            />
+            <GithubLink color="black" />
             <Spacer size={20} horizontal={true} />
             <TextLink
               linkUrl="https://qiita.com/taikiti"
