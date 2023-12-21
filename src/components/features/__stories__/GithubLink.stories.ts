@@ -1,6 +1,6 @@
 import GithubLink from "@/components/features/GithubLink";
 import { Meta, StoryObj } from "@storybook/react";
-import "../../assets/css/MainSection.css";
+import "../../../assets/css/MainSection.css";
 
 const meta = {
   title: "GithubLink",

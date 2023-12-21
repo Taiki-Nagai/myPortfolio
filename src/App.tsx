@@ -1,6 +1,6 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import MainSection from "@/components/MainSection";
+import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
+import MainSection from "@/components/screen/MainSection";
 import "./App.css";
 
 const App = () => {

@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
-import "../assets/css/MainSection.css";
-import Header from "../components/Header";
+import "../../../assets/css/MainSection.css";
+import Header from "../Header";
 
 const meta = {
   title: "Header",

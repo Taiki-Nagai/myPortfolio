@@ -1,8 +1,8 @@
 import GithubLink from "@/components/features/GithubLink";
 import QiitaLink from "@/components/features/QiitaLink";
-import "../assets/css/Header.css";
-import Container from "./common/Container";
-import Spacer from "./common/Spacer";
+import "../../assets/css/Header.css";
+import Container from "./Container";
+import Spacer from "./Spacer";
 
 const Header = () => {
   const headerText: string = "Portfolio";

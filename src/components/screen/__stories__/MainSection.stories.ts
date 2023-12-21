@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from "@storybook/react";
-import MainSection from "../components/MainSection";
-import "../assets/css/MainSection.css";
+import "../../../assets/css/MainSection.css";
+import MainSection from "../MainSection";
 
 const meta = {
   title: "MainSection",
