@@ -1,8 +1,13 @@
+import GithubLink from "@/components/features/GithubLink";
+import { act, render, screen } from "@testing-library/react";
+
 describe("GitHubリンクのテスト", () => {
   it("テスト１", () => {
-    // const { getByText } = render(<GithubLink color={"white"} />);
-    // const textLink = getByText("GitHub");
-    // fireEvent.progress(textLink);
-    // expect(textLink).toHaveBeenCalledTimes(1);
+    act(() => {
+      <GithubLink color="black" />;
+    });
+    render(<GithubLink color="black" />);
+    const element = screen.getByText("GitHub");
+    // expect(element).toBeInTheDocument();
   });
 });
