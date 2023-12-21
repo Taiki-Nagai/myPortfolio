@@ -1,6 +1,6 @@
 import QiitaLink from "@/components/features/QiitaLink";
 import { Meta, StoryObj } from "@storybook/react";
-import "../../assets/css/MainSection.css";
+import "../../../assets/css/MainSection.css";
 
 const meta = {
   title: "QiitaLink",
