@@ -22,7 +22,6 @@ const TextLink = (props: TextLinkProps) => {
       style={style}
       target="_blank"
       rel="noreferrer"
-      // role="button"
     >
       {text}
     </a>
