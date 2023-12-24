@@ -19,22 +19,24 @@ const Item = (props: ItemProps) => {
         <img src={img} alt="" className="img-style" />
       </a>
       <table className="tbl">
-        <tr className="tbl-tr">
-          <td className="tbl-tr__tdTitle">サイト名：</td>
-          <td>{siteName}</td>
-        </tr>
-        <tr className="tbl-tr">
-          <td className="tbl-tr__tdTitle">使用言語：</td>
-          <td>{usedLanguage}</td>
-        </tr>
-        <tr className="tbl-tr">
-          <td className="tbl-tr__tdTitle">制作期間：</td>
-          <td>{productionTime}</td>
-        </tr>
-        <tr className="tbl-tr">
-          <td className="tbl-tr__tdTitle">　概要　：</td>
-          <td>{summary}</td>
-        </tr>
+        <tbody>
+          <tr className="tbl-tr">
+            <td className="tbl-tr__tdTitle">サイト名：</td>
+            <td>{siteName}</td>
+          </tr>
+          <tr className="tbl-tr">
+            <td className="tbl-tr__tdTitle">使用言語：</td>
+            <td>{usedLanguage}</td>
+          </tr>
+          <tr className="tbl-tr">
+            <td className="tbl-tr__tdTitle">制作期間：</td>
+            <td>{productionTime}</td>
+          </tr>
+          <tr className="tbl-tr">
+            <td className="tbl-tr__tdTitle">　概要　：</td>
+            <td>{summary}</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );
